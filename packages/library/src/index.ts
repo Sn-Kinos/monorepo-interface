@@ -4,3 +4,8 @@ interface LibraryOptions {
 }
 
 export interface LibraryProps extends LibraryOptions, SizeProps<number> {}
+
+const Library: LibraryProps = {
+  foo: '',
+  size: 1,
+};
