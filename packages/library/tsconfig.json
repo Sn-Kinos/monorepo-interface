@@ -23,8 +23,6 @@
     "useUnknownInCatchVariables": false,
     "noImplicitAny": false,
     "paths": {
-      "Components/*": ["src/components/*"],
-      "Utils/*": ["src/utils/*"],
       "Types/*": ["src/types/*"]
     }
   },

@@ -1,6 +1,11 @@
-import { LibraryProps } from 'library';
+import { LibraryInterface, LibraryType } from 'library';
 
-export const AppObject: LibraryProps = {
+export const AppObjectWithInterface: LibraryInterface = {
   foo: '',
-  size: 1,
+  relative: 1,
+};
+
+export const AppObjectWithType: LibraryType = {
+  foo: '',
+  relative: 1,
 };
