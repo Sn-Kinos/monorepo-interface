@@ -6,10 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "workspaces": [
+    "packages/**/*",
+    "apps/**/*"
+  ],
   "keywords": [],
   "author": "",
   "devDependencies": {
     "typescript": "^5.0.4"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "packageManager": "yarn@3.5.1"
 }

@@ -18,6 +18,7 @@
     "preserveConstEnums": true,
     "sourceMap": true,
     "esModuleInterop": true,
+    "types": ["library"],
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
