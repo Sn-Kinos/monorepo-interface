@@ -1,11 +1,19 @@
-import { SizeProps } from 'Types/Common';
-interface LibraryOptions {
+import { PathsProps } from 'Types/Paths';
+import { AbsoluteProps } from 'src/types/Absolute';
+import { RelativeProps } from './types/Relative';
+interface InSameFileOptions {
   foo: string;
 }
 
-export interface LibraryProps extends LibraryOptions, SizeProps<number> {}
+export interface LibraryProps
+  extends InSameFileOptions,
+    RelativeProps,
+    PathsProps,
+    AbsoluteProps {}
 
-const Library: LibraryProps = {
+export const Library: LibraryProps = {
   foo: '',
-  size: 1,
+  relative: 1,
+  absolute: false,
+  paths: [],
 };
