@@ -1,7 +1,6 @@
 {
   "name": "app",
   "version": "1.0.0",
-  "description": "",
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,10 +8,16 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "library": "workspace:^"
-  },
   "devDependencies": {
     "typescript": "^5.0.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sn-Kinos/pnpm-monorepo-interface.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sn-Kinos/pnpm-monorepo-interface/issues"
+  },
+  "homepage": "https://github.com/Sn-Kinos/pnpm-monorepo-interface#readme",
+  "description": ""
 }
